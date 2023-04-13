@@ -101,7 +101,7 @@ function  createPokemon(pokemon, modal){
 	if (modal !==true){
         const pokeInnerHTML = `
         <div class="img-container">
-            <img src="https://pokeres.bastionbot.org/images/pokemon/${
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${
 							pokemon.id
 						}.png" alt="${name}" />
         </div>
@@ -122,7 +122,7 @@ function  createPokemon(pokemon, modal){
         <div class="modal" id="modalPokemon">
         <div class="pokemon">
         <div class="img-container">
-            <img src="https://pokeres.bastionbot.org/images/pokemon/${
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${
 							pokemon.id
 						}.png" alt="${name}" />
         </div>
